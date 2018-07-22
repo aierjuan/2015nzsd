@@ -1,194 +1,230 @@
-<!DOCTYPE html>
-<html>
-
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<title>突破·改变——游戏多2015年终特别策划</title>
-		<link href="static/css/base.css" rel="stylesheet" type="text/css">
-	</head>
-
-	<body>
-		<div id="loading" style="width: 400px; height: 548px; background-size: 400px 548px;">
-			<!-- music -->
-			<div class="music" style="top: -60px;">
-				<div class="musicCont">
-					<em class="musicBar"></em>
-					<div class="musicBtn">
-						<audio autoplay="autoplay" id="audio_play" loop="" src="static/music/aiqing.mp3">
-							<source src="" type="audio/mpeg">
-						</audio>
-					</div>
-				</div>
-			</div>
-
-			<span class="onClick"><em><i></i><h1></h1><img src="static/img/hand.png"></em></span>
-			<!--
+<!DOCTYPE HTML>
+<html lang="zh-cn">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title>突破·改变——游戏多2015年终特别策划</title>
+<link href="static/css/base.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="loading">
+    	<!-- music -->
+    	<div class="music">
+            <div class="musicCont">
+                <em class="musicBar"></em>
+                <div class="musicBtn">
+                    <audio autoplay="autoplay" id="audio_play" loop>  
+                        <source src="" type="audio/mpeg">  
+                    </audio>
+                </div>
+            </div>
+        </div>
+        
+        <span class="onClick"><em><i></i><h1></h1><img src="static/img/hand.png" /></em></span>
+        <!--
         <span class="iconJt"></span>
         <span class="btnPrev"></span>
         <span class="btnNext"></span>
         -->
-
-			<!--cloud-->
-			<!--<div class="cloud">
+        
+        <!--cloud--> 
+    	<!--<div class="cloud">
         	<img src="static/img/cloud1.png" class="cloud1" />
             <img src="static/img/cloud2.png" class="cloud2" />
      		<img src="static/img/cloud4.png" class="cloud3" />
             <img src="static/img/cloud3.png" class="cloud4" />
         </div>-->
-			<div class="flipbook-viewport">
-				<div class="container">
-					<div class="flipbook shadow" style="position: relative; width: 385px; height: 507px; overflow: hidden;">
-
-						<div class="page p-temporal" style="width: 385px; height: 507px;"></div>
-						<div class="page-wrapper" page="1" style="position: absolute; overflow: hidden; width: 385px; height: 507px; top: 0px; left: 0px; right: auto; z-index: 18;">
-							<div style="position: absolute; top: 0px; left: 0px; overflow: hidden; z-index: 100; width: 637px; height: 637px;">
-								<div class="daxiao1 page p1" style="float: left; width: 385px; height: 507px; position: absolute; top: 0px; left: 0px; bottom: auto; right: auto;">
-									<div class="animateBox" style="width: 400px; height: 548px;">
-										<img src="static/img/FMbg.png" style="max-width: 414px; height: 548px; width: 400px;" class="fengmian">
-									</div>
-								</div>
-							</div>
-							<div style="top: 0px; left: 0px; overflow: hidden; z-index: 1; width: 385px; height: 507px;"></div>
-						</div>
-						<div style="pointer-events: none; display: none; position: absolute; top: -16px; left: 0px; overflow: visible; z-index: auto;">
-							<div style="position: absolute; top: 16px; left: 0px; overflow: hidden; z-index: 18; display: none; width: 637px; height: 637px;">
-								<div style="position: absolute; top: 0px; left: 0px; overflow: visible; z-index: auto; cursor: default; width: 385px; height: 507px;">
-									<div style="position: absolute; top: 0px; left: 0px; overflow: hidden; z-index: 1; width: 385px; height: 507px;"></div>
-								</div>
-							</div>
-							<div style="position: absolute; top: 16px; left: 0px; overflow: hidden; z-index: 17; display: none; width: 637px; height: 637px;">
-								<div style="position: absolute; top: 0px; left: 0px; overflow: visible; z-index: auto; cursor: default; width: 385px; height: 507px;">
-									<div style="position: absolute; top: 0px; left: 0px; overflow: hidden; z-index: 1; width: 385px; height: 507px;"></div>
-								</div>
-							</div>
-							<div style="position: absolute; top: 16px; left: 0px; overflow: hidden; z-index: 0; display: none; width: 637px; height: 637px;">
-								<div style="position: absolute; top: 0px; left: 0px; overflow: visible; z-index: auto; cursor: default; width: 385px; height: 507px;">
-									<div style="position: absolute; top: 0px; left: 0px; overflow: hidden; z-index: 1; width: 385px; height: 507px;"></div>
-								</div>
-							</div>
-							<div style="position: absolute; top: 16px; left: 0px; overflow: hidden; z-index: 0; display: none; width: 637px; height: 637px;">
-								<div style="position: absolute; top: 0px; left: 0px; overflow: visible; z-index: auto; cursor: default; width: 385px; height: 507px;">
-									<div style="position: absolute; top: 0px; left: 0px; overflow: hidden; z-index: 1; width: 385px; height: 507px;"></div>
-								</div>
-							</div>
-							<div style="position: absolute; top: 16px; left: 0px; overflow: hidden; z-index: 0; display: none; width: 637px; height: 637px;">
-								<div style="position: absolute; top: 0px; left: 0px; overflow: visible; z-index: auto; cursor: default; width: 385px; height: 507px;">
-									<div style="position: absolute; top: 0px; left: 0px; overflow: hidden; z-index: 1; width: 385px; height: 507px;"></div>
-								</div>
-							</div>
-						</div>
-						<div class="page-wrapper" page="2" style="position: absolute; overflow: hidden; width: 385px; height: 507px; top: 0px; left: 0px; right: auto; z-index: 17;">
-							<div style="position: absolute; top: 0px; left: 0px; overflow: hidden; z-index: auto; width: 637px; height: 637px;">
-								<div class="daxiao page p2" style="float: left; width: 385px; height: 507px; position: absolute; top: 0px; left: 0px; bottom: auto; right: auto; background-size: 400px 548px;">
-									<div class="animateBox anim1" style="width: 400px; height: 548px;">
-										<img src="static/img/page1_1.png" class="page1_1">
-										<img src="static/img/page1_2.png" class="page1_2">
-									</div>
-								</div>
-							</div>
-							<div style="top: 0px; left: 0px; overflow: hidden; z-index: 1; width: 385px; height: 507px;"></div>
-						</div>
-						<div class="page-wrapper" page="3" style="position: absolute; overflow: hidden; width: 385px; height: 507px; top: 0px; left: 0px; right: auto; z-index: 0; display: none;">
-							<div style="position: absolute; top: 0px; left: 0px; overflow: hidden; z-index: auto; width: 637px; height: 637px;">
-								<div class="daxiao page p3" style="float: left; width: 385px; height: 507px; position: absolute; top: 0px; left: 0px; bottom: auto; right: auto; background-size: 400px 548px;">
-									<div class="animateBox anim2" style="width: 400px; height: 548px;">
-										<img src="static/img/page2_1.png" class="page2_1">
-										<img src="static/img/page2_2.png" class="page2_2">
-									</div>
-								</div>
-							</div>
-							<div style="top: 0px; left: 0px; overflow: hidden; z-index: 1; width: 385px; height: 507px;"></div>
-						</div>
-						<div class="page-wrapper" page="4" style="position: absolute; overflow: hidden; width: 385px; height: 507px; top: 0px; left: 0px; right: auto; z-index: 0; display: none;">
-							<div style="position: absolute; top: 0px; left: 0px; overflow: hidden; z-index: auto; width: 637px; height: 637px;">
-								<div class="daxiao page p4" style="float: left; width: 385px; height: 507px; position: absolute; top: 0px; left: 0px; bottom: auto; right: auto; background-size: 400px 548px;">
-									<div class="animateBox anim3" style="width: 400px; height: 548px;">
-										<img src="static/img/page3_1.png" class="page3_1">
-										<img src="static/img/page3_2.png" class="page3_2">
-									</div>
-								</div>
-							</div>
-							<div style="top: 0px; left: 0px; overflow: hidden; z-index: 1; width: 385px; height: 507px;"></div>
-						</div>
-						<div class="page-wrapper" page="5" style="position: absolute; overflow: hidden; width: 385px; height: 507px; top: 0px; left: 0px; right: auto; z-index: 0; display: none;">
-							<div style="position: absolute; top: 0px; left: 0px; overflow: hidden; z-index: auto; width: 637px; height: 637px;">
-								<div class="daxiao page p5" style="float: left; width: 385px; height: 507px; position: absolute; top: 0px; left: 0px; bottom: auto; right: auto; background-size: 400px 548px;">
-									<div class="animateBox anim4" style="width: 400px; height: 548px;">
-										<img src="static/img/page4_1.png" class="page4_1">
-										<img src="static/img/page4_2.png" class="page4_2">
-										<img src="static/img/page4_3.png" class="page4_3">
-										<img src="static/img/page4_4.png" class="page4_4">
-									</div>
-								</div>
-							</div>
-							<div style="top: 0px; left: 0px; overflow: hidden; z-index: 1; width: 385px; height: 507px;"></div>
-						</div>
-						<div class="shadow" style="position: absolute; top: 0px; left: 0px; overflow: hidden; z-index: auto; width: 385px; height: 507px;"></div>
+		<div class="flipbook-viewport">
+			<div class="container">
+				<div class="flipbook">
+ 	                <div class="daxiao1">
+              			<div class="animateBox" >
+                			<img src="static/img/FMbg.png" style="max-width:414px; height:726px;" class="fengmian" />
+                		</div>
+              		</div>
+             		<div class="daxiao">
+                        <div class="animateBox anim1">
+                            <img src="static/img/page1_1.png"  class="page1_1"/>
+                            <img src="static/img/page1_2.png" class="page1_2" />
+                        </div>
+                    </div>
+					<div class="daxiao">
+						<div class="animateBox anim2">
+                            <img src="static/img/page2_1.png"  class="page2_1"/>
+                            <img src="static/img/page2_2.png" class="page2_2" />
+                        </div>      
+                    </div>
+                    <div class="daxiao">
+                        <div class="animateBox anim3">
+                            <img src="static/img/page3_1.png" class="page3_1" />
+                            <img src="static/img/page3_2.png" class="page3_2" />
+                        </div>
+                    </div>
+                    <div class="daxiao">
+                         <div class="animateBox anim4">
+                            <img src="static/img/page4_1.png" class="page4_1" />
+                            <img src="static/img/page4_2.png" class="page4_2" />
+                            <img src="static/img/page4_3.png" class="page4_3" />
+                            <img src="static/img/page4_4.png" class="page4_4" />
+                         </div>
+                      </div>
+                      <div class="daxiao">
+                          <div class="animateBox1 anim5">
+                               <img src="static/img/page5_1.png" class="page5_1" />
+                           </div>
+                      </div>
+                      <div class="daxiao">
+                        <div class="animateBox1 anim6">
+                           <img src="static/img/page6_1.png" class="page6_1" />
+                           <img src="static/img/page6_2.png" class="page6_2" />
+                        </div>
+                      </div>
+                      <div class="daxiao">
+                        <div class="animateBox1 anim7">
+                           <img src="static/img/page7_1.png" class="page7_1" />
+                           <img src="static/img/page7_2.png" class="page7_2" />
+                        </div>
+                      </div>
+                      <div class="daxiao">
+                        <div class="animateBox1 anim8">
+                           <img src="static/img/page8_1.png" class="page8_1" />
+                        </div>
+                      </div>
+                      <div class="daxiao">
+                        <div class="animateBox1 anim9">
+                           <img src="static/img/page9_1.png" class="page9_1" />
+                           <img src="static/img/page9_2.png" class="page9_2" />
+                           <img src="static/img/page9_3.png" class="page9_3" />
+                        </div>
+                      </div>
+                      <div class="daxiao">
+                        <div class="animateBox2 anim10">
+                           <img src="static/img/page10_1.png" class="page10_1" />
+                           <img src="static/img/page10_2.png" class="page10_2" />
+                           <img src="static/img/page10_3.png" class="page10_3" />
+                           <img src="static/img/page10_4.png" class="page10_4" />
+                           <img src="static/img/page10_5.png" class="page10_5" />
+                        </div>
+                      </div>
+                      <div class="daxiao">
+                        <div class="animateBox2 anim11">
+                           <img src="static/img/page11_1.png" class="page11_1" />
+                           <img src="static/img/page11_2.png" class="page11_2" />
+                        </div>
+                      </div>
+                      <div class="daxiao">
+                        <div class="animateBox2 anim12">
+                           <img src="static/img/page12_1.png" class="page12_1" />
+                           <img src="static/img/page12_2.png" class="page12_2" />
+                           <img src="static/img/page12_3.png" class="page12_3" />
+                        </div>
+                      </div>
+                      <div class="daxiao">
+                        <div class="animateBox2 anim13">
+                           <img src="static/img/page13_1.png" class="page13_1" />
+                           <img src="static/img/page13_2.png" class="page13_2" />
+                           <img src="static/img/page13_3.png" class="page13_3" />
+                           <img src="static/img/page13_4.png" class="page13_4" />
+                        </div>
+                      </div>
+                      <div class="daxiao">
+                        <div class="animateBox2 anim14">
+                           <img src="static/img/page14_1.png" class="page14_1" />
+                           <img src="static/img/page14_2.png" class="page14_2" />
+                        </div>
+                      </div>
+                      <div class="daxiao">
+                        <div class="animateBox3 anim15">
+                           <img src="static/img/page15_1.png" class="page15_1" />
+                           <img src="static/img/page15_2.png" class="page15_2" />
+                        </div>
+                  	  </div>
+					  <div class="daxiao">
+						<div class="animateBox3 anim16">
+                           <img src="static/img/page16_1.png" class="page16_1" />
+                           <img src="static/img/page16_2.png" class="page16_2" />
+                           <img src="static/img/page16_3.png" class="page16_3" />
+                           <img src="static/img/page16_4.png" class="page16_4" />
+                        </div>
+                      </div>
+                      <div class="daxiao">
+                        <div class="animateBox3 anim17">
+                            <img src="static/img/page17_3.gif" class="page17_3" />
+                            <img src="static/img/wz1.png" class="page17_4" />
+                            <img src="static/img/wz2.png" class="page17_5" />
+                            <img src="static/img/wz3.png" class="page17_6" />
+                            <img src="static/img/wz4.png" class="page17_7" />
+                            <img src="static/img/wz5.png" class="page17_8" />
+                            <img src="static/img/wz6.png" class="page17_9" />
+                            <img src="static/img/wz7.png" class="page17_10" />
+                            <img src="static/img/wz8.png" class="page17_11" />
+                            <a class="btnAddyYxd" href="http://h5.youxiduo.com/hot/zhaopin/index.html?from=timeline&isappinstalled=0" title="加入游戏多 一起谱写新的篇章！"></a>
+                        </div>
 					</div>
-				</div>
+            	</div>
 			</div>
-		</div>
-
-		<script src="static/js/jquery.min.1.7.js"></script>
-		<script src="static/js/jquery.easing.min.js"></script>
-		<script src="static/js/modernizr.2.5.3.min.js"></script>
-		<script src="static/js/index.js"></script>
-		<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
-		<script src="static/js/weixinShare.js"></script>
-		<script src="static/js/turn.js"></script>
-		<script type="text/javascript">
-			$(function progressbar() {
-				var w = $(".graph").width();
-				setTimeout(function() {
-					$(".flipbook-viewport").show();
-				}, 1000);
-			});
-			//屏蔽ios下上下弹性
-			$(window).on('scroll.elasticity', function(e) {
-				e.preventDefault();
-			}).on('touchmove.elasticity', function(e) {
-				e.preventDefault();
-			});
-
-			function loadApp() {
-				var w = $(window).width();
-				var h = $(window).height();
-				$('.flipboox').width(w).height(h);
-				$(window).resize(function() {
-					w = $(window).width();
-					h = $(window).height();
-					$('.flipboox').width(w).height(h);
-				});
-
-				$('.flipbook').turn({
-					// Width
-					width: w - 15,
-					// Height
-					height: h - 41,
-					// Elevation
-					elevation: 30,
-					display: 'single',
-					// Enable gradients
-					gradients: true,
-					// Auto center this flipbook
-					autoCenter: false
-				});
-
-				$('.btnAddyYxd').bind("click", function() {
-					event.PreventDefault();
-				});
-			}
-
-			// Load the HTML4 version if there's not CSS transform
-			yepnope({
-				test: Modernizr.csstransforms,
-				yep: ['static/js/turn.js'],
-				nope: ['static/js/turn.html4.min.js'],
-				complete: loadApp
-			});
-		</script>
-	</body>
-
+    	</div>
+    </div>
+    
+	<script src="static/js/jquery.min.1.7.js"></script>
+    <script src="static/js/jquery.easing.min.js"></script>
+	<script src="static/js/modernizr.2.5.3.min.js"></script>
+    <script src="static/js/index.js"></script>
+    <script src="static/js/turn.js"></script>
+</body>
 </html>
+
+<script type="text/javascript">
+$(function progressbar(){
+	var w = $(".graph").width();
+	setTimeout(function(){$(".flipbook-viewport").show();},1000);
+});
+//屏蔽ios下上下弹性
+$(window).on('scroll.elasticity', function(e)
+{
+  e.preventDefault();
+}).on('touchmove.elasticity', function(e)
+{
+  e.preventDefault();
+});
+
+function loadApp() {
+  var w=$(window).width();
+  var h=$(window).height();
+  $('.flipboox').width(w).height(h);
+  $(window).resize(function(){
+	  w=$(window).width();
+	  h=$(window).height();
+	  $('.flipboox').width(w).height(h);
+  });
+
+  $('.flipbook').turn({
+		  // Width
+		  width:w-15,
+		  // Height
+		  height:h-41,
+		  // Elevation
+		  elevation: 30,
+		  display :'single',
+		  // Enable gradients
+		  gradients: true,
+		  // Auto center this flipbook
+		  autoCenter: false
+  });
+  
+	$('.btnAddyYxd').bind("click",function()
+	{
+		event.PreventDefault();  
+	});
+}
+
+// Load the HTML4 version if there's not CSS transform
+yepnope({
+  test : Modernizr.csstransforms,
+  yep: ['static/js/turn.js'],
+  nope: ['static/js/turn.html4.min.js'],
+  complete: loadApp
+});
+
+</script>
